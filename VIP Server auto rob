@@ -1,6 +1,3 @@
-Aqui está o script ajustado com o rejoin mais rápido possível. Apenas a função `shop()` foi otimizada para atender ao seu pedido.
-
-```lua
 repeat wait() until game:IsLoaded()
 repeat wait() until game.Players.LocalPlayer.Character
 repeat wait() until game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")
@@ -101,4 +98,3 @@ until getrobbery() == nil
 task.wait(1)
 
 shop()
-```
